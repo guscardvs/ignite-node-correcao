@@ -107,7 +107,6 @@ describe("Projects", () => {
       .send({
         likes: 15
       });
-
     expect(response.body).toMatchObject({
       likes: 0
     });
